@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SI SHEFA - Aspiring Software Engineer Portfolio">
+    <meta name="keywords" content="portfolio, software engineer, C programming, web development, problem-solving">
+    <title>SI SHEFA</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #002B5B;
+            color: #fff;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.8rem;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        nav ul li a:hover {
+            color: #FFD700;
+        }
+        .hero {
+            text-align: center;
+            padding: 5rem 2rem;
+            background: linear-gradient(to right, #002B5B, #00509E);
+            color: white;
+        }
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: auto;
+        }
+        .section {
+            padding: 4rem 2rem;
+        }
+        .section h3 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            color: #002B5B;
+            text-align: center;
+        }
+        .skills {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .skills .skill {
+            background-color: #00509E;
+            color: #fff;
+            padding: 1rem;
+            margin: 1rem;
+            border-radius: 5px;
+            font-size: 1rem;
+            text-align: center;
+            min-width: 150px;
+            transition: background-color 0.3s ease;
+        }
+        .skills .skill:hover {
+            background-color: #FFD700;
+        }
+        footer {
+            background-color: #002B5B;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            header h1 {
+                font-size: 1.5rem;
+            }
+            .hero h2 {
+                font-size: 2rem;
+            }
+            .hero p {
+                font-size: 1rem;
+            }
+            .skills .skill {
+                min-width: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SI SHEFA</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to SI SHEFA's Portfolio</h2>
+        <p>An aspiring Software Engineer passionate about problem-solving, coding, and creating innovative solutions.</p>
+    </section>
+
+    <section id="about" class="section">
+        <h3>About Me</h3>
+        <p>Hello! I'm Shefaul Islam Shefa, a dedicated and passionate individual on a journey to become a software engineer. I have experience in graphic design, web development, and problem-solving using C and C++.</p>
+    </section>
+
+    <section id="skills" class="section">
+        <h3>Skills</h3>
+        <div class="skills">
+            <div class="skill">C Programming</div>
+            <div class="skill">C++ Programming</div>
+            <div class="skill">Web Development</div>
+            <div class="skill">Graphic Design</div>
+            <div class="skill">Problem-Solving</div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h3>Projects</h3>
+        <p>Coming soon! Stay tuned for updates.</p>
+    </section>
+
+    <section id="contact" class="section">
+        <h3>Contact Me</h3>
+        <p>Email: sishefa19@gmail.com</p>
+        <p>GitHub: <a href="https://github.com/si-shefa" target="_blank">github.com/shefa19</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/si-shefa" target="_blank">linkedin.com/in/sishefa19/</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 SI SHEFA. All rights reserved.</p>
+    </footer>
+</body>
+</html>
